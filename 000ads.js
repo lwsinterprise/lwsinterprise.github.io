@@ -1,5 +1,5 @@
 const anuncioData = {
-  imagem: "https://raw.githubusercontent.com/LWSdevelopers/LWSdevelopers.github.io/refs/heads/main/000img.jpg",
+  imagem: "",
   titulo: "🎁 Invite your friends",
   descricao: "Share the app. Every invitation can bring you advantages and improvements!",
   textoBotao: "Share Now"
@@ -8,9 +8,7 @@ const anuncioData = {
 const anuncioContainer = document.getElementById("anuncio");
 
 anuncioContainer.innerHTML = `
-  <div class="patrocinado">🔥</div>
-
-  <img src="${anuncioData.imagem}" alt="Convide amigos" class="imagem-anuncio"/>
+  <div class="patrocinado"></div>
 
   <div class="conteudo-anuncio">
     <h3>${anuncioData.titulo}</h3>
